@@ -9,6 +9,13 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^5.13.8"
+    "@astrojs/react": "^4.3.1",
+    "@astrojs/rss": "^4.0.12",
+    "@fontsource/merriweather": "^5.2.11",
+    "astro": "^5.13.8",
+    "canvas-confetti": "^1.9.3"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0"
   }
 }

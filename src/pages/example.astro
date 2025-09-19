@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro"
+import AstroGreet from "../components/AstroGreet.astro"
+import AstroHeart from "../components/AstroHeart.astro"
+import ConfettiButton from "../components/ConfettiButton.astro"
+---
+
+
+<BaseLayout>
+   <h1>In a galaxy far, far away</h1>
+
+   <p>Custom fonts make my headings much cooler</p>
+
+   <style>
+      h1{
+         font-family: 'DistantGalaxy', sans-serif;
+      }
+   </style>
+      <!-- Use the default message: “Welcome, world!” -->
+<AstroGreet />
+
+<!-- Use custom messages passed as a props. -->
+<AstroGreet message="Lovely day to build components!" />
+<AstroGreet message="Glad you made it! 👋" />
+
+<AstroHeart />
+<ConfettiButton></ConfettiButton>
+
+</BaseLayout>
